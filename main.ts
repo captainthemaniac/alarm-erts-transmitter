@@ -6,6 +6,10 @@ input.onButtonPressed(Button.A, function () {
 input.onButtonPressed(Button.B, function () {
     broadcastCode += 1
 })
+// Touch the logo to reset the variables to 0.
+input.onLogoEvent(TouchButtonEvent.Touched, function () {
+    broadcastCode = 0
+})
 /**
  * At the start, we have the value of the number codes of 0
  */
