@@ -16,3 +16,4 @@ input.onLogoEvent(TouchButtonEvent.Touched, function () {
 let broadcastCode = 0
 broadcastCode = 0
 radio.setTransmitPower(7)
+radio.setGroup(192)
